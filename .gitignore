@@ -1,0 +1,29 @@
+# Виртуальное окружение
+.venv/
+venv/
+ENV/
+env/
+
+# Кэш Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Базы данных (SQLite, если локальная)
+*.db
+*.sqlite
+*.sqlite3
+
+# Переменные окружения и секреты (самое важное!)
+.env
+.env.*
+
+# Логи и временные файлы
+*.log
+
+# Настройки редакторов (VS Code, PyCharm)
+.vscode/
+.idea/
+*.swp
+*.swo
